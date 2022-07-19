@@ -116,6 +116,9 @@ html {
     margin: 50px;
     background-color:#FFFF00;
     background-size: cover;
+    overflow-y: scroll;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
 }
 
 #pic {
