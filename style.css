@@ -196,7 +196,7 @@ html {
     padding: 10px;
     border-radius: 15px;
     background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
-    background-size: 100% 300%;
+    background-size: 100% 500%;
     transition: all .8s;
     overflow-x: scroll;
 }
