@@ -114,7 +114,7 @@ html {
     padding: 20px;
     margin: 50px;
     background-color:#FFFF00;
-     background-size: cover;
+    background-size: cover;
 }
 
 #pic {
@@ -195,7 +195,7 @@ html {
     padding: 10px;
     border-radius: 15px;
     background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
-    background-size: 100% 500%;
+    background-size: 100% 900%;
     transition: all .8s;
     overflow-x: scroll;
 }
@@ -237,7 +237,7 @@ html {
 .input {
     padding: 12px;
     margin: 15px;
-    width: 30%;
+    width: 50%;
     border: none;
     outline: none;
 }
@@ -253,7 +253,7 @@ html {
 #send {
     padding: 10px;
     margin: 40px;
-    width: 10%;
+    width: 50%;
     border: none;
     outline: none;
 }
