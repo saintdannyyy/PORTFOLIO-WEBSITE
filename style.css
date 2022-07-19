@@ -13,8 +13,8 @@ html {
 
 .navbar {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: justify;
+    align-items: justfy;
     background-color: rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
@@ -24,7 +24,7 @@ html {
 .navbar ul {
     display: flex;
     list-style: none;
-    margin: 30px 0px;
+    margin: 40px 0px;
 }
 
 .navbar ul li {
@@ -153,6 +153,7 @@ html {
     color: white;
     align-items: center;
     padding: 20px;
+    overflow-y: scroll;
 }
 
 .gallery {
@@ -199,7 +200,7 @@ html {
     padding: 10px;
     border-radius: 15px;
     background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
-    background-size: 100% 900%;
+    background-size: 100% 1000%;
     transition: all .8s;
     overflow-x: scroll;
 }
