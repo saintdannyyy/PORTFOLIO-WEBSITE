@@ -170,7 +170,7 @@ html {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background colour: #FFFF00;
+    background-color:#FFFF00;
 }
 
 .row {
