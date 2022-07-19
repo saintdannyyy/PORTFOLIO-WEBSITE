@@ -189,14 +189,13 @@ html {
     width: 1000px;
     height: 450px;
     border: 1px solid black;
-    border-style:solid;
     margin: 10px;
     align-items: center;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
     background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
-    background-size: 100% 200%;
+    background-size: 100% 500%;
     transition: all .8s;
     overflow-x: scroll;
 }
