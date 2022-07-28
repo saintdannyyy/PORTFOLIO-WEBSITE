@@ -88,10 +88,29 @@
 
     <section id="contact">
         <h1 class="headings">CONTACT ME</h1>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-            <input type="submit" value="SEND" id="send"></form>
+      <form id="contact_form" action="https://www.instagram.com/direct/t/340282366841710300949128178598229941173" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="Full name" class="input" name="Full name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="Subject" class="input" name="Subject" rows="7" cols="30"></textarea><br />
+    <span"></span>
+  </div>
+    <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="Write a message" class="input" name="Write amessage" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    <input id="submit_button" type="submit" value="Send email" />
+</form> 
     </section>
 </body>
 
