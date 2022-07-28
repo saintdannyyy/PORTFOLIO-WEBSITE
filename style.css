@@ -66,7 +66,7 @@ html {
     right: 0;
     background: url('home.jpg') no-repeat center center/cover;
     height: 900px;
-    width: 200%;
+    width: 100%;
     z-index: -1;
     opacity: .8;
 }
@@ -78,7 +78,7 @@ html {
     align-items: center;
     position: absolute;
     top: 30%;
-    right: 8%;
+    right: 10%;
 }
 
 .headings {
@@ -89,7 +89,7 @@ html {
 }
 
 .btn {
-    padding: 20px40px;
+    padding:10px 40px;
     background-color: transparent;
     border: 1px solid white;
     color: white;
